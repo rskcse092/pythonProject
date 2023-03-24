@@ -12,7 +12,7 @@ soup = bs4.BeautifulSoup(res.text)
 print("The object type:", type(soup))
 print(soup)
 
-print("priting conents")
+print("printing conents")
 print(soup.contents)
 print("printing text")
 print(soup.text)
