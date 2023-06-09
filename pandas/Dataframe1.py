@@ -1,0 +1,10 @@
+import pandas as pd
+car_df=pd.read_csv("C:\\Users\\CSC\\PycharmProjects\\pythonProject\\Input\\car-sales.csv")
+print(car_df)
+print(car_df['Make'],car_df['Colour'])
+print(pd.crosstab(car_df['Make'],car_df['Colour']))
+print(car_df.dtypes)
+car_df["Odometer (KM)"] = pd.to_numeric(car_df["Odometer (KM)"])
+print(car_df.dtypes)
+print(car_df['Make'].apply(str))
+print(car_df.dtypes)

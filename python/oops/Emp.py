@@ -6,7 +6,7 @@ class Employee:
         # class variable
         Employee.company = "XYZ"
 
-    def __str__(self): "this is  EMP doc string"
+    def __str__(self): "this is  EMP doc Built-in"
 
     def disp(self):
         print(" emp id is:", self.id)
@@ -49,8 +49,8 @@ print(emp3.__str__())
 
 #to understand __str__ and __repr__
 
-# it returns a  human - friendly string, while the repr() function calls __repr__()
-# and returns a more information-rich string that can be used to recreate the object
+# it returns a  human - friendly Built-in, while the repr() function calls __repr__()
+# and returns a more information-rich Built-in that can be used to recreate the object
 class Ocean:
 
     def __init__(self, sea_creature_name, sea_creature_age):

@@ -5,11 +5,11 @@ import datetime
 
 mydate = datetime.datetime.now()
 
-print("__str__() string: ", mydate.__str__())
-print("str() string: ", str(mydate))
+print("__str__() Built-in: ", mydate.__str__())
+print("str() Built-in: ", str(mydate))
 
-print("__repr__() string: ", mydate.__repr__())
-print("repr() string: ", repr(mydate))
+print("__repr__() Built-in: ", mydate.__repr__())
+print("repr() Built-in: ", repr(mydate))
 
 
 l = dir(m)

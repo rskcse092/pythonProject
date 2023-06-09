@@ -42,7 +42,7 @@ for i in feature_list:
     plt.subplots_adjust(hspace = 0.5 , wspace = 0.5)
     sns.distplot(df[i], bins=20, kde = True)
     pos = pos + 1
-# plt.show()
+plt.show()
 
 #Count and plot gender
 sns.countplot(y = 'Gender', data = df, palette="husl", hue = "Gender")
